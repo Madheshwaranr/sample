@@ -8,7 +8,7 @@ log_filename = "app_log.txt"
 remote_host = "13.204.233.48"  # Splunk forwarder IP
 remote_user = "ec2-user"
 remote_dir = "/home/ec2-user/"  # target path on remote host
-ssh_key_path = "/home/ec2-user/secret/id_rsa"  # path to your private key
+ssh_key_path = "/opt/secret/id_rsa"  # path to your private key
  
 # --- Ensure local log directory exists ---
 os.makedirs(log_dir, exist_ok=True)
