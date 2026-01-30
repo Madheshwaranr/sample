@@ -12,7 +12,7 @@ ssh_key_path = "/home/ec2-user/secret/id_rsa"  # path to your private key
  
 # --- Ensure local log directory exists ---
 os.makedirs(log_dir, exist_ok=True)
-
+ 
 # --- Create a log file with timestamp ---
 log_path = os.path.join(log_dir, log_filename)
 with open(log_path, "a") as log_file:
